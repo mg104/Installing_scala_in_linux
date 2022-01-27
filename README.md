@@ -27,6 +27,7 @@
 
 7. Add the following line to the end of the above file:
    - JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+   - export PATH=$PATH:/usr/lib/jvm/java-11-openjdk-amd64
 
 8. Run the following command:
    - source ~/.bashrc

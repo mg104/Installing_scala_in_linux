@@ -9,6 +9,7 @@
 2. Run the command to open ~/.bashrc file and add the second line at the end of it:
    - sudo nano ~/.bashrc
    - export PATH=$PATH:/home/madhur/.local/share/coursier/bin
+   - source ~/.bashrc
 
 3. Run:
    - cs update cs

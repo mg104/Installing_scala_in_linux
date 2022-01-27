@@ -30,3 +30,9 @@
 
 8. Run the following command:
    - source ~/.bashrc
+
+9. Install IntelliJ IDEA 
+
+10. Make a new project. Choose the "sbt" option. When asked for the JDK, browse and select the /usr/lib/jvm/java-11-openjdk-amd64 option.
+
+Good to go!

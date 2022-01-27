@@ -16,16 +16,17 @@
    - ./cs setup
 
 4. Install Java by running the following command:
-   - sudo apt install openjdk-16-jre-headless
+   - sudo apt install default-jre
+   - sudo apt install default-jdk
 
 5. Run the following command to find the path of the Java binary (bin) files:
    - sudo update-alternatives --config java
 
-6. Copy the path that you get from above (usually /usr/lib/jvm/java-16-openjdk-amd64/bin/java) without "/bin/java" and add it to the /etc/environment file by running the following command:
+6. Copy the path that you get from above (usually /usr/lib/jvm/java-11-openjdk-amd64/bin/java) without "/bin/java" and add it to the /etc/environment file by running the following command:
    - sudo nano /etc/environment
 
 7. Add the following line to the end of the above file:
-   - JAVA_HOME="/usr/lib/jvm/java-16-openjdk-amd64"
+   - JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 
 8. Run the following command:
    - source /etc/environment
